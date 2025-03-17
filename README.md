@@ -1,6 +1,6 @@
 # Wrath
 
-## Hello, this is a Front end project focused in my focused in Js Css And Html. 👍
+## Hello, this is a Front end project focused in my knowledge in Js Css And Html. 👍
 
 <h1> Some pictures from my project</h1>
 
