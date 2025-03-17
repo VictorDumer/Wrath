@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrath Planos</title>
+    <link rel="stylesheet" href="../Styles/pagamento.css">
+    <script src="https://kit.fontawesome.com/8a17dc47c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../assets/W.png" type="image/x-icon">
+    <script src="../Scripts/pagamento.js"></script>
+</head>
+<body>
+    <main id="orange">
+        <!-- Apenas um espaço irado aqui kk-->
+    </main>
+    <nav>
+        <img src="../assets/WRATH.png" alt="logo" id="logo">
+        <a href="main.html">Início </a>
+        <a href="main.html">Funcionalidades</a>
+        <a href="main.html">Planos e Taxas</a>
+        <a href="ajuda.html">Ajuda</a>
+        <a href="index.html" >
+            <button id="Login" >Login</button>
+        </a>    
+        
+            <button id="Cadastro"><a href="index.html"> <i class="fa-solid fa-user-plus"></i>Cadastre-se agora</a></button>
+        </nav>
+
+        <section>
+            <div class="container-pagamento">
+                <form action="main.html">
+
+
+                    <div id="metodos">
+                        <i class="fa-regular fa-credit-card"></i>
+                    <H3>Métodos de pagamento</H3>
+                </div>
+                <div class="line"></div>
+                
+                <div id="pagamento">
+                    <div >
+                        <div id="card">
+                            <div id="card-radio">
+                                <input type="radio" name="cartao" id="Débito" required>
+                            </div>
+                            
+                                <img src="../assets/mercado-pago.png" alt="cartão" id="cartao-img">
+                                <img src="../assets/paypal.jpg" alt="cartão" id="cartao-img">
+                                <img src="../assets/mastercard.png" alt="cartão" id="cartao-img">
+                            
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div id="card">
+                            <input type="radio" name="cartao" id="Crédito" required>
+                            <img src="../assets/pix.png" alt="cartão" id="cartao-img">
+                        </div>
+                        
+                        
+                    </div>
+                    <div>
+                        <div id="card">
+                            <input type="radio" name="cartao" id="Boleto" required>
+                            
+                            <img src="../assets/boleto-logo.png" alt="cartão" id="cartao-img">
+                        </div>
+                    </div>
+                </div>
+                <button id="Buy"> <i class="fa-solid fa-check"></i> Finalizar Compra </button>
+            </div>
+        </form>
+        </section>
+
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>    Wrath </h1>
+                    <p><span>Simples, confiável, lucrativa.</span>
+                        De pessoas <br> ambiciosas para pessoas ambiciosas
+                    </p>
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/notvito/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i></a>
+    
+                        <a href="https://github.com/VictorDumer" class="footer-link" id="github">
+                            <i class="fa-brands fa-github"></i></a>
+                        
+                        <a href="#" class="footer-link" id="whatsapp">
+                         <i class="fa-brands fa-whatsapp"></i></a>
+                        
+                    </div>
+                </div>
+                
+                
+                <div id="footer_subscribe">
+                    <h3>Gostou?</h3>
+                    
+                    <p>
+                        Digite seu e-mail para ser notificado de futuras promoções
+                    </p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="footer_copyright">
+               <p>
+                   &#169
+                   2025 all rights reserved by Victor Dumer
+               </p>
+            </div>
+        </footer>
+</body>
+</html>

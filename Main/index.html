@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrath Login</title>
+    <link rel="stylesheet" href="../Styles/login.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <script src="../Scripts/script.js" defer></script>
+    <link rel="icon" href="../assets/W.png" type="image/x-icon">
+</head>
+<body>
+    <header id="orange">
+        <!-- Apenas um espaço irado aqui kk-->
+    </header>
+    <nav>
+        <img src="../assets/WRATH.png" alt="logo" id="logo">
+        <button id="Buttons" onclick="Login()">Início </button>
+        <button id="Buttons" onclick="Login();">Funcionalidades</button>
+        <button id="Buttons" onclick="Login();">Planos e Taxas</button>
+        <button id="Buttons" onclick="Login();">Ajuda</button>
+        <a href="index.html" >
+            <button id="Login" >Login</button>
+        </a>    
+        
+            <button id="Cadastro"><a href="index.html"> <i class="fa-solid fa-user-plus"></i>Cadastre-se agora</a></button>
+    </nav>
+    <section id="login">
+        <div class="container-login">
+            <h1 id="h1">Let's get started !</h1>
+            <button type="submit" id="Start-google">
+            
+                <img src="../assets/GOOGLE.png" alt="">
+                <a href="main.html"> 
+                    <span>Continue with Google</span>
+                </a>
+            </button>
+           
+            <img src="../assets/OR (288 x 40 px).png" id="Or" alt="---------------- or ----------------" />
+            <form action="main.html" >
+                <input type="email" id="enter-email" placeholder="Enter your email to continue.." required/>
+                
+                <button type="submit" id="enter-button" disabled> <span>Continue </span> <span class="material-symbols-outlined">
+                    arrow_forward
+                    </span></button>
+            
+            </form>
+            <p>By clicking "Create account" or "Continue with google", you agree to Wrath's <a href="termos.html" id="texts"> Terms & Conditions</a> and <a href="termos.html"> Privacy Policy</a></p>
+        </div>
+    </section>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>    Wrath </h1>
+                <p><span>Simples, confiável, lucrativa.</span>
+                    De pessoas <br> ambiciosas para pessoas ambiciosas
+                </p>
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/notvito/" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://github.com/VictorDumer" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i></a>
+                    
+                    <a href="#" class="footer-link" id="whatsapp">
+                     <i class="fa-brands fa-whatsapp"></i></a>
+                    
+                </div>
+            </div>
+            
+            
+            <div id="footer_subscribe">
+                <h3>Gostou?</h3>
+                
+                <p>
+                    Digite seu e-mail para ser notificado de futuras promoções
+                </p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="footer_copyright">
+           <p>
+               &#169
+               2025 all rights reserved by Victor Dumer
+           </p>
+        </div>
+    </footer>
+</body>
+</html>
