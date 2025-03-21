@@ -12,6 +12,9 @@
 <Strong> How clone my project to your computer:</Strong>
 <ul>
   <li><strong>1 - Open the visual studio terminal</strong></li>
-  <li><strong>2 - Type in the terminal "git clone https://github.com/VictorDumer/Wrath.git"</strong></li>
+  <li><strong>2 - Type in the terminal<\li>
+```
+git clone https://github.com/VictorDumer/Wrath.git
+```
   <li><strong>3 - Press enter and test the web-site 👍</strong></li>
 </ul>
