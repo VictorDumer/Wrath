@@ -13,6 +13,7 @@
 <ul>
   <li><strong>1 - Open the visual studio terminal</strong></li>
   <li><strong>2 - Type in the terminal<\li>
+
 ```
 git clone https://github.com/VictorDumer/Wrath.git
 ```
